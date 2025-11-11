@@ -1,6 +1,11 @@
 server:
   port: 4000
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
 
 message:
   test1: '(수정)테스트 메시지1'
