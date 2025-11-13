@@ -17,8 +17,8 @@ management:
       exposure:
         include: refresh
 
-message:
-  test1: '(수정)테스트 메시지1'
-  test2: '(수정)테스트 메시지2'
-
-message3: '(수정)테스트 메시지3'
+rabbit:
+  product:
+    exchange: sparta
+    queue: hub
+    routing-key: product.#
